@@ -36,12 +36,27 @@
   </head>
   <body class="poppins">
     <header>
-      <navbar> </navbar>
+      <navbar>
+        <div class="mx-7 md:mx-28 lg:mx-28 flex my-4">
+          <div class="navbar lg:flex justify-between">
+            <h1 class="text-2xl font-bold">Bike Dekho</h1>
+            <div class="flex gap-10">
+              <ul class="menu menu-horizontal hidden lg:flex px-1">
+                <li><a>Home</a></li>
+                <li><a>Shop</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+              <button class="btn bg-btnccl text-white">Login</button>
+            </div>
+          </div>
+        </div>
+      </navbar>
       <!-- Header Section starts here -->
       <!-- Slider or Carousel Section starts here -->
       <!-- =================================================> -->
       <div
-        class="carousel md:mx-28 mt-12 w-full md:w-[1128px] md:h-[550px] bg-[#FDF1EE] rounded-sm"
+        class="carousel md:mx-28 mt-6 w-full md:w-[1128px] md:h-[550px] bg-[#FDF1EE] rounded-sm"
       >
         <!-- Slide 1 -->
         <div
@@ -551,17 +566,25 @@
       </section>
     </main>
     <footer class="bg-neutral text-neutral-content p-10">
-      <div class="flex justify-around">
-        <div class="">
+      <div class="md:flex justify-around py-6">
+        <div class="space-y-4">
           <p>Download Now License</p>
           <p>About Features Pricing Careers Help Privacy Policy</p>
           <p>© 2020 bike. All rights reserved</p>
         </div>
-        <div class="">
+        <div class="space-y-4">
           <p>Get the App</p>
           <div class="flex flex-col">
-            <img src="images/others/android.png" alt="" />
-            <img src="images/others/ios.png" alt="" />
+            <img
+              class="w-[135px] h-[40px] mb-4"
+              src="images/others/android.png"
+              alt=""
+            />
+            <img
+              class="w-[135px] h-[40px]"
+              src="images/others/ios.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
